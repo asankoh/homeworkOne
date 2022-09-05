@@ -1,0 +1,31 @@
+.aboutHero{
+    height: 400px;
+    max-width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, rgba(31, 69, 110,.6), rgba(31, 69, 110, .6)),url(../img/State_Normal_School_Building.jpg);    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    .textBox{
+        max-width: 1500px;
+        h2{
+            font-size: 64px;
+            color: #FFF;
+            text-align: center;
+        }
+    
+        p{
+            width: 800px;
+            text-align: center;
+            font-size: 16px;
+            color: #FFF;
+        }
+
+    }
+    
+
+
+}

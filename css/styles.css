@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+h1 {
+  color: green;
+}
+
+@font-face {
+  font-family: GillsBold;
+  src: url(../css/fonts/GillSansBold.otf);
+}
+@font-face {
+  font-family: PTBold;
+  src: url(../css/fonts/PTSerif-Bold.ttf);
+}
+@font-face {
+  font-family: PTReg;
+  src: url(../css/fonts/PTSerif-Regular.ttf);
+}
+nav {
+  height: 60px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1F456E;
+  opacity: 1;
+}
+nav .logo {
+  height: 100%;
+  width: 300px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+nav .logo span {
+  font-size: 16px;
+  font-family: GillsBold;
+}
+nav .logo img {
+  height: 80%;
+}
+nav .links {
+  margin-right: 20px;
+  width: 700px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+nav .links a {
+  color: black;
+  font-size: 21px;
+  font-family: GillsBold;
+  margin-right: 50px;
+  padding-top: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+nav .links a:hover {
+  color: #FFF;
+}
+
+.hero {
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to bottom, rgba(31, 69, 110, 0.3), rgba(31, 69, 110, 0.3)), url(../img/heroOne.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.hero h1 {
+  font-size: 64px;
+  font-family: PTBold;
+  text-transform: uppercase;
+  color: white;
+  position: relative;
+  top: -120px;
+  right: -50px;
+}
+.hero p {
+  position: absolute;
+  width: 850px;
+  font-size: 16px;
+  font-family: PTReg;
+  color: white;
+}
+.hero .heroBtn {
+  width: 125px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 100px;
+  right: 475px;
+  border: none;
+  border-radius: 20px;
+  background-color: gold;
+}
+
+.content {
+  height: 500px;
+  margin: 0 auto;
+}
+.content .flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 80px;
+  padding: 50px;
+}
+.content .flex-container .boxOne, .content .flex-container .boxTwo, .content .flex-container .boxThree {
+  width: 400px;
+  height: 300px;
+}
+.content .flex-container .boxOne {
+  background-color: lightblue;
+}
+.content .flex-container .boxOne h2 {
+  color: white;
+  border: solid 2px black;
+  border-radius: 0 20px 0 0;
+  background-color: black;
+  opacity: 0.3;
+  width: 250px;
+  height: 50px;
+  font-family: PTReg;
+}
+.content .flex-container .boxOne p {
+  width: 250px;
+  font-size: 16px;
+  float: right;
+  color: white;
+  font-family: PTReg;
+}
+.content .flex-container .boxOne i {
+  position: relative;
+  top: 50px;
+  right: -30px;
+  font-size: 64px;
+  float: left;
+  color: white;
+}
+.content .flex-container .boxTwo {
+  background-color: red;
+}
+.content .flex-container .boxTwo h2 {
+  color: white;
+  border: solid 2px black;
+  border-radius: 0 20px 0 0;
+  background-color: black;
+  opacity: 0.3;
+  width: 250px;
+  height: 50px;
+  font-family: PTReg;
+}
+.content .flex-container .boxTwo p {
+  width: 250px;
+  font-size: 16px;
+  float: right;
+  color: white;
+  font-family: PTReg;
+}
+.content .flex-container .boxTwo i {
+  position: relative;
+  top: 50px;
+  right: -30px;
+  font-size: 64px;
+  float: left;
+  color: white;
+}
+.content .flex-container .boxThree {
+  background-color: grey;
+}
+.content .flex-container .boxThree h2 {
+  color: white;
+  border: solid 2px black;
+  border-radius: 0 20px 0 0;
+  background-color: black;
+  opacity: 0.3;
+  width: 250px;
+  height: 50px;
+  font-family: PTReg;
+}
+.content .flex-container .boxThree p {
+  width: 250px;
+  font-size: 16px;
+  float: right;
+  color: white;
+  font-family: PTReg;
+}
+.content .flex-container .boxThree i {
+  position: relative;
+  top: 50px;
+  right: -30px;
+  font-size: 64px;
+  float: left;
+  color: white;
+}
+
+footer {
+  height: 100px;
+  background-color: #1F456E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+footer i {
+  font-size: 32px;
+  padding: 15px;
+}
+footer .copyright {
+  font-family: PTReg;
+  margin-top: 15px;
+}
+
+.aboutHero {
+  height: 400px;
+  max-width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to bottom, rgba(31, 69, 110, 0.6), rgba(31, 69, 110, 0.6)), url(../img/State_Normal_School_Building.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.aboutHero .textBox {
+  max-width: 1500px;
+}
+.aboutHero .textBox h2 {
+  font-size: 64px;
+  color: #FFF;
+  text-align: center;
+}
+.aboutHero .textBox p {
+  width: 800px;
+  text-align: center;
+  font-size: 16px;
+  color: #FFF;
+}
+
+.aboutContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+}
+.aboutContent .textTwo img {
+  padding: 30px;
+  width: 700px;
+  height: 600px;
+}
+.aboutContent .textTwo h2 {
+  position: relative;
+  top: 120px;
+  right: 440px;
+  font-size: 42px;
+  float: right;
+  width: 200px;
+}
+.aboutContent .textTwo p {
+  position: relative;
+  top: 120px;
+  width: 500px;
+  font-size: 16px;
+  float: right;
+  padding: 60px;
+}
+
+/*# sourceMappingURL=styles.css.map */

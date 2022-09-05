@@ -1,0 +1,42 @@
+.hero{
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, rgba(31, 69, 110,.3), rgba(31, 69, 110, .3)),url(../img/heroOne.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    h1{
+        font-size: 64px;
+        font-family: PTBold;
+        text-transform: uppercase;
+        color: white;
+        position: relative;
+        top: -120px;
+        right: -50px;
+    }
+
+    p{
+        position: absolute;
+        width: 850px;
+        font-size: 16px;
+        font-family: PTReg;
+        color: white;
+    }
+
+    .heroBtn{
+        width: 125px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 100px;
+        right: 475px;
+        border: none;
+        border-radius: 20px;
+        background-color: gold;
+    }
+}

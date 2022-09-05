@@ -1,0 +1,32 @@
+.aboutContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+
+    .textTwo{
+
+        img{
+            padding: 30px;
+            width: 700px;
+            height: 600px;
+        }
+        h2{
+            position: relative;
+            top: 120px;
+            right: 440px;
+            font-size: 42px;
+            float: right;
+            width: 200px;
+        }
+        p{
+            position: relative;
+            top: 120px;
+            width: 500px;
+            font-size: 16px;
+            float: right;
+            padding: 60px;
+        }
+        
+    }
+}
