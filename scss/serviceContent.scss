@@ -1,0 +1,36 @@
+.serviceContent{
+    height: 500px;
+    margin: 0 auto;
+    background-color: rgba($color: #808080, $alpha: .7);
+
+    .flex-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        padding: 125px 50px;
+
+
+        .boxOne, .boxTwo, .boxThree, .boxFour{
+            width: 300px;
+            height: 200px;
+            background-color: rgba($color: #808080, $alpha: .7);
+        }
+
+        h3{
+            color: white;
+            font-size: 16px;
+            font-family: GillsBold;
+        }
+
+        p{
+            font-size: 14px;
+            color: white;
+            font-family: GillSans;
+            margin-top: 25px;
+        }
+
+
+
+}
+}

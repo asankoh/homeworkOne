@@ -1,0 +1,64 @@
+.contactContent{
+    height: 500px;
+    max-width: 980px;
+    margin: 0 auto;
+    padding-top: 50px;
+
+    h1{
+        text-align: center;
+        font-size: 32px;
+        color: black;
+        font-family: GillsBold;
+    }
+ 
+.input-wrapper{
+    display: flex;
+    margin: 50px auto;
+    max-width: 70%;
+
+
+
+    .text-field-one{
+        margin-right: 20px;
+        width: 100%;
+        padding: 10px;
+        outline: none;
+        border: solid 2px #1F456E;
+
+
+    }
+
+ 
+}
+
+.input-wrapper-two{
+    display: flex;
+    margin: 30px auto ;
+    max-width: 70%;
+
+
+    .text-field-two{
+        margin-right: 20px;
+        padding: 10px;
+        width: 100%;
+        outline: none;
+        border: solid 2px #1F456E;
+
+
+    
+
+
+    }
+}
+
+.messageBox{
+    min-width: 680px;
+    height: 80px;
+    position: relative;
+    right: -145px;
+    border: solid 2px #1F456E;
+
+}
+}
+
+

@@ -28,6 +28,10 @@ h1 {
   font-family: PTReg;
   src: url(../css/fonts/PTSerif-Regular.ttf);
 }
+@font-face {
+  font-family: GillSans;
+  src: url(../css/fonts/GillSans.ttc);
+}
 nav {
   height: 60px;
   background-color: white;
@@ -248,19 +252,21 @@ footer .copyright {
   font-size: 64px;
   color: #FFF;
   text-align: center;
+  font-family: GillsBold;
 }
 .aboutHero .textBox p {
   width: 800px;
   text-align: center;
   font-size: 16px;
   color: #FFF;
+  font-family: GillSans;
 }
 
 .aboutContent {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: lightgray;
+  background-color: rgba(128, 128, 128, 0.7);
 }
 .aboutContent .textTwo img {
   padding: 30px;
@@ -273,7 +279,9 @@ footer .copyright {
   right: 440px;
   font-size: 42px;
   float: right;
-  width: 200px;
+  width: 250px;
+  font-family: GillsBold;
+  color: white;
 }
 .aboutContent .textTwo p {
   position: relative;
@@ -282,6 +290,150 @@ footer .copyright {
   font-size: 16px;
   float: right;
   padding: 60px;
+  font-family: GillSans;
+  color: #FFF;
+}
+
+.serviceHero {
+  height: 400px;
+  max-width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to bottom, rgba(31, 69, 110, 0.6), rgba(31, 69, 110, 0.6)), url(../img/State_Normal_School_Building.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.serviceHero .textBox {
+  max-width: 1500px;
+}
+.serviceHero .textBox h2 {
+  font-size: 64px;
+  color: #FFF;
+  text-align: center;
+  font-family: GillsBold;
+}
+.serviceHero .textBox p {
+  width: 800px;
+  text-align: center;
+  font-size: 16px;
+  color: #FFF;
+  font-family: GillSans;
+}
+
+.serviceContent {
+  height: 500px;
+  margin: 0 auto;
+  background-color: rgba(128, 128, 128, 0.7);
+}
+.serviceContent .flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 125px 50px;
+}
+.serviceContent .flex-container .boxOne, .serviceContent .flex-container .boxTwo, .serviceContent .flex-container .boxThree, .serviceContent .flex-container .boxFour {
+  width: 300px;
+  height: 200px;
+  background-color: rgba(128, 128, 128, 0.7);
+}
+.serviceContent .flex-container h3 {
+  color: white;
+  font-size: 16px;
+  font-family: GillsBold;
+}
+.serviceContent .flex-container p {
+  font-size: 14px;
+  color: white;
+  font-family: GillSans;
+  margin-top: 25px;
+}
+
+.contactHero {
+  max-width: auto;
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to bottom, rgba(31, 69, 110, 0.3), rgba(31, 69, 110, 0.3)), url(../img/heroOne.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.contactHero h1 {
+  font-size: 64px;
+  font-family: PTBold;
+  text-transform: uppercase;
+  color: white;
+  position: relative;
+  top: -120px;
+  right: -50px;
+}
+.contactHero p {
+  position: absolute;
+  width: 850px;
+  font-size: 16px;
+  font-family: PTReg;
+  color: white;
+}
+.contactHero .heroBtn {
+  width: 125px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 100px;
+  right: 475px;
+  border: none;
+  border-radius: 20px;
+  background-color: gold;
+}
+
+.contactContent {
+  height: 500px;
+  max-width: 980px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.contactContent h1 {
+  text-align: center;
+  font-size: 32px;
+  color: black;
+  font-family: GillsBold;
+}
+.contactContent .input-wrapper {
+  display: flex;
+  margin: 50px auto;
+  max-width: 70%;
+}
+.contactContent .input-wrapper .text-field-one {
+  margin-right: 20px;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: solid 2px #1F456E;
+}
+.contactContent .input-wrapper-two {
+  display: flex;
+  margin: 30px auto;
+  max-width: 70%;
+}
+.contactContent .input-wrapper-two .text-field-two {
+  margin-right: 20px;
+  padding: 10px;
+  width: 100%;
+  outline: none;
+  border: solid 2px #1F456E;
+}
+.contactContent .messageBox {
+  min-width: 680px;
+  height: 80px;
+  position: relative;
+  right: -145px;
+  border: solid 2px #1F456E;
 }
 
 /*# sourceMappingURL=styles.css.map */
